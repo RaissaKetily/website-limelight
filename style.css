@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+html , body { /* (MEXER COM A COR DO FUNDO DA TELA) */
+    min-height: 100vh;
+    overflow-x:hidden;
+    /* background-color: whitesmoke; /* (MEXER COM A COR DO FUNDO DA TELA) */
+}
+
+body {
+    min-width: 100%;
+}
+
+.secao-banner header { /* (MEXER COM A IMAGEM E A LOGO) */
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 50px 70px;  /* (USA-SE PARA AFASTAR TANTO DO INICIO DO CABEÇALHO QUANTO NA ALTURA) */
+    align-items: center;
+    /* padding-top: 50px; */
+}
+
+.secao-banner img { /* (MEXER COM A LOGO) */
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-cabecalho { /* (MEXER COM O HOME/PROFILE ETC) */
+    display: flex;
+    gap: 30px; /* (AJUSTAR A DISTANCIA ENTRE OS ELEMENTOS) */
+}
+
+.texto-banner { /* (TODO O TEXTO DO MEIO) */
+    padding: 70px; /* (AJUSTANDO O TEXTO PARA O MEIO DA PRIMEIRA PARTE) */
+    margin-top: 200px; /* (DISTANCIA DO TOPO COM TODO O TEXTO DO MEIO) */
+}
+
+
+.texto-banner h1,
+.texto-banner p,  /* (MEXER COM OS TRÊS "PARAGRAFOS" DO BANNER) */
+.texto-banner a {
+    font-family: 'Roboto Slab', sans-serif; /* (MEXER COM AS FONTES) */
+}
+
+.texto-banner h1 { /* (MEXER COM O TITULO DO BANNER) */
+    font-size: 50px; /* (TAMANHO DA FONTE) */
+}
+
+.texto-banner a { /* (MEXER COM OS TRÊS "PARAGRAFOS" DO BANNER) */
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none; /* (PARA RETIRAR A LISTRA DO LINK) */
+    cursor: pointer;
+}
+
+
+.nav-cabecalho a { /* (MEXER COM AS 5 OPÇÕES DO TOPO DO BANNER) */
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.secao-banner { /* (MEXER COM A IMAGEM DO FUNDO DA TELA) */
+    background-image: url("./assets/banner.jpeg");
+    height: 800px;
+}
+
+.secao-beneficios h1, /* (MEXER COM O TITULO E SUBTITULO DA SEGUNDA PAGINA) */
+.secao-beneficios p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.secao-beneficios h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 30px; /* (MEXER COM O TAMANHO DA FONTE) */
+}
+
+.secao-beneficios {
+    margin-top: 100px;
+}
+
+.lista-beneficios { /* (MEXER COM OS ICONES TELEFONE/CADEADO/PROTECAO) */
+    /*margin-top: 90px; /* (AFASTA A PRIMEIRA PAGINA DA SEGUNDA) */
+    display: flex; /* (AJUSTOU OS ICONES, TEXTOS E PARAGRAFOS UM AO LADO DO OUTRO) */
+    justify-content: center;
+    gap: 90px; /* (SEPARAÇÃO DOS ICONE, TITULO E PARAGRAFO) */
+    margin-top: 10px; /* (SEPARANDO OS ICONES DO TITULO) */
+}
+
+.beneficios {
+    text-align: center;
+    margin-top: 150px; /* (SEPARAÇÃO DO PARAGRAFO E DOS ICONES) */
+    justify-content: space-between; 
+}
+
+.beneficios span {
+    display: flex;
+    background-color: black;
+    color:white;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    cursor: pointer;
+    /* float: right; (SERVE PARA AJUSTAR A IMAGEM AO LADO DO TEXTO) */
+}
+
+.beneficios h1 {
+    margin: 25px 0;
+}
+
+.secao-servicos {
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    padding: 100px 0;
+}
+
+.primeira-img-texto {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    gap: 150px;
+    margin: 150px;
+}
+
+.primeira-img-texto a,
+.segunda-img-texto a {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.segunda-img-texto {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    gap: 150px;
+}
+
+.lista-servicos { /* (MEXER COM OS LOCK - ICONES COM APROVAÇÃO) */
+    display: flex;
+    gap: 10px; /* (MEXER COM OS AFASTAMENTOS DO TEXTO) */
+}
+
+.secao-depoimentos {
+    text-align: center;
+}
+
+.quarta-tela {
+    
+
+    margin-top: 100px;
+}
+
+.quarta-tela img {
+    border-radius: 50%;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.secao-final {
+    background-image: url("./assets/banner-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 90px;
+}
